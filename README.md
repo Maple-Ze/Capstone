@@ -2,7 +2,7 @@
 
 In the final lab, we will run a competition-based experiment in which the various functions of navigation and visual recognition throughout the semester will be integrated into a complete system. The map and missions are shown below. 
 
-![](image\mission.png)
+![](Maple-Ze/Capstone/image/mission.png)
 
 <center><b>Map and missions</b></center>
 
