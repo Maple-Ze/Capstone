@@ -30,7 +30,7 @@ Robot will have a total of three minutes to compete. Also starting at PS1, it ca
 
 The computer used in this experiment is Lenovo Legion Y7000P with 16GB RAM. CPU is Intel Core i7-10875H. GPU is NVIDIA GeForce RTX 2060.
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\computer.jpg" style="zoom:15%;" />
+<img src="image/computer.jpg" style="zoom:15%;" />
 
 <center><b>Lenovo Legion Y7000P</b></center>
 
@@ -38,7 +38,7 @@ The computer used in this experiment is Lenovo Legion Y7000P with 16GB RAM. CPU 
 
 The robot used in this experiment is TurtleBot3. [TurtleBot](https://www.TurtleBot.com/) is a [ROS](http://www.ros.org/about-ros/) standard platform robot. There are 3 versions of the TurtleBot model. TurtleBot3 is a small, affordable, programmable, ROS-based mobile robot for use in education, research, hobby, and product prototyping.
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\turtlebot.jpg" style="zoom:8%;" />
+<img src="image/turtlebot.jpg" style="zoom:8%;" />
 
 <center><b>TurtleBot3</b></center>
 
@@ -48,7 +48,7 @@ ROS is the abbreviation of Robot Operating System. ROS is a flexible framework f
 
 ROS is not an operating system in the traditional sense of process management and scheduling; rather, it provides a structured communications layer above the host operating systems of a heterogenous compute cluster.
 
-![](C:\Users\15270\Desktop\移动机器人\image\ros.png)
+![](image/ros.png)
 
 <center><b>ROS</b></center>
 
@@ -60,13 +60,13 @@ Due to the problem of visual transmission delay, I did not use the black lines f
 
 Firstly, use SLAM to construct a map for the competition terrain. 
 
-![](C:\Users\15270\Desktop\移动机器人\image\map.png)
+![](image/map.png)
 
 <center><b>Map constructed by SLAM</b></center>
 
 Then match the location of TurtleBot and the map. 
 
-![](C:\Users\15270\Desktop\移动机器人\image\match.png)
+![](image/match.png)
 
 <center><b>Match the location</b></center>
 
@@ -76,7 +76,7 @@ Finally we can get the coordinate position and orientation of the robot through 
 rostopic echo /amcl_pose
 ```
 
-![](C:\Users\15270\Desktop\移动机器人\image\amcl.png)
+![](image/amcl.png)
 
 <center><b>Get the position and orientation</b></center>
 
@@ -189,27 +189,27 @@ if target_num > 3:
 
 TurtleBot successfully reached each mission point and perfectly covering the circle at PS's. At SS's, the sound corresponding to AR Tag was successfully emitted. The time to complete all tasks is 2 '30 ". The results of reaching each task point are shown below.
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\1_0.jpg" style="zoom:10%;" />
+<img src="image/1_0.jpg" style="zoom:10%;" />
 
 <center><b>Go through the narrow channel</b></center>
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\1_1.jpg" style="zoom:10%;" />
+<img src="image/1_1.jpg" style="zoom:10%;" />
 
 <center><b>Stop at PS2</b></center>
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\1_2.jpg" style="zoom:10%;" />
+<img src="image/1_2.jpg" style="zoom:10%;" />
 
 <center><b>Stop at SS1</b></center>
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\1_3.jpg" style="zoom:10%;" />
+<img src="image/1_3.jpg" style="zoom:10%;" />
 
 <center><b>Stop at PS3</b></center>
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\1_4.jpg" style="zoom:10%;" />
+<img src="image/1_4.jpg" style="zoom:10%;" />
 
 <center><b>Stop at SS2</b></center>
 
-<img src="C:\Users\15270\Desktop\移动机器人\image\1_5.jpg" style="zoom:10%;" />
+<img src="image/1_5.jpg" style="zoom:10%;" />
 
 <center><b>Stop at PS4</b></center>
 
