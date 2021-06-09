@@ -2,7 +2,7 @@
 
 In the final lab, we will run a competition-based experiment in which the various functions of navigation and visual recognition throughout the semester will be integrated into a complete system. The map and missions are shown below. 
 
-![](C:\Users\15270\Desktop\移动机器人\image\mission.png)
+![](image\mission.png)
 
 <center><b>Map and missions</b></center>
 
