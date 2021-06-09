@@ -225,10 +225,10 @@ The commands of this lab are shown as follows:
 ```txt
 roscore
 
-******************* on TurtleBot *********************
-roslaunch TurtleBot3_bringup TurtleBot3_robot.launch
+******************* on turtlebot *********************
+roslaunch turtlebot3_bringup turtlebot3_robot.launch
 roslaunch raspicam_node camerav2_410x308_30fps.launch
-******************* on TurtleBot *********************
+******************* on turtlebot *********************
 
 rosrun image_transport republish compressed in:=/raspicam_node/image raw out:=/raspicam_node/image
 
@@ -238,9 +238,9 @@ rostopic echo /ar_pose_marker
 
 rosrun sound_play soundplay_node.py
 
-rosrun line_follower_TurtleBot ar_detect
+rosrun line_follower_turtlebot ar_detect
 
-roslaunch TurtleBot3_navigation TurtleBot3_navigation.launch map_file:=$HOME/map.yaml
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
 rosrun simple_navigation_goals move.py
 ```
