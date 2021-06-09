@@ -31,7 +31,6 @@ Robot will have a total of three minutes to compete. Also starting at PS1, it ca
 The computer used in this experiment is Lenovo Legion Y7000P with 16GB RAM. CPU is Intel Core i7-10875H. GPU is NVIDIA GeForce RTX 2060.
 
 <img src="image/computer.jpg" style="zoom:15%;" />
-
 <center><b>Lenovo Legion Y7000P</b></center>
 
 ### TurtleBot3
