@@ -168,7 +168,7 @@ else
 
 ### Round 1:
 
-The program executes each position in order of PS2-->SS1-->PS3-->SS2--> PS4 and emits the corresponding number when reaching AR tags.
+The program executes each position in order of PS2-->SS1-->PS3-->SS2-->PS4 and emits the corresponding number when reaching AR tags.
 
 ### Round 2:
 
