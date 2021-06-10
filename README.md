@@ -172,7 +172,7 @@ The program executes each position in order of PS2-->SS1-->PS3-->SS2--> PS4 and 
 
 ### Round 2:
 
-In 3 minutes, in the order of PS2àSS1àPS3àSS2à PS2àSS1àPS3àSS2 to execute. When finish any task，**target_num + 1**. TurtleBot will execute the next task. When the task for SS2 is finished, set target_num to zero and make TurtleBot go to PS2 again.
+In 3 minutes, in the order of PS2-->SS1-->PS3-->SS2-->PS2-->SS1-->PS3-->SS2 to execute. When finish any task，**target_num + 1**. TurtleBot will execute the next task. When the task for SS2 is finished, set target_num to zero and make TurtleBot go to PS2 again.
 
 ```python
 target_num += 1
